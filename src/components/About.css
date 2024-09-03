@@ -1,0 +1,30 @@
+/* About.css */
+.dark-mode {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.light-mode {
+    color: black;
+    background-color: white;
+}
+
+.dark-mode .accordion-button {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.dark-mode .accordion-body {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
