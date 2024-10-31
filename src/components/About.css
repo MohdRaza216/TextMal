@@ -1,30 +1,21 @@
 /* About.css */
-.dark-mode {
-    color: white;
-    background-color: black;
-    border: 2px solid white;
+.dark-mode h1 {
+    color: rgb(20, 220, 255);
 }
 
-.light-mode {
-    color: black;
-    background-color: white;
+.light-mode h1 {
+    color: rgb(0, 255, 255);
 }
 
-.dark-mode .accordion-button {
-    background-color: black;
-    color: white;
-    border-color: white;
+.accordion-button {
+    color: inherit;
 }
 
-.dark-mode .accordion-body {
-    background-color: black;
-    color: white;
-    border-color: white;
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    /* background-color: brown; */
 }
 
-.btn-dark {
-    background-color: black;
-    color: white;
-    border-color: white;
-}
-
+/* .accordion-button {
+    background-color: red;
+} */
